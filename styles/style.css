@@ -1,0 +1,172 @@
+.navbar {
+    background-color: transparent;
+    padding: 20px 60px;
+    width: 100%;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 15px;
+}
+
+.btn-agendar {
+    background-color: #a5c9f1;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.btn-agendar:hover {
+    transition: 0.3s;
+    background-color: #8bb7e0;
+    color: black;
+}
+
+
+.background-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/imgs/bg-clinica.png') no-repeat center center/cover;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.texto-central {
+    color: white;
+    width: 700px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    gap: 20px;
+}
+
+.texto-central h1 {
+    font-size: 50px;
+}
+
+.texto-central p {
+    font-size: 20px;
+}
+
+.beneficios {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.beneficios h1 {
+    color: #1470AF;
+    font-size: 50px;
+}
+
+.beneficios-grupo {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 80px
+}
+
+.beneficio-item img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.beneficio-item p {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.beneficio-item h2 {
+    margin-top: 50px;
+    color: #1470AF;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.agendar {
+    background-color: #8EB6DC;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.agendar h1 {
+    font-size: 50px;
+}
+
+.agendar p {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.dividir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.dividir-paragrafo {
+    width: 800px;
+    color: white;
+    font-size: 17px;
+}
+
+.dividir-formulario {
+    background-color: white;
+    height: 600px;
+    width: 900px;
+    padding: 50px;
+}
+
+.caixa {
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.dividir-formulario h2 {
+    text-align: center;
+    color: #1470AF;
+}
+
+.dividir-formulario h3 {
+    font-size: 25px;
+    color: #1470AF;
+}
+
+.dividir-formulario p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    margin: 50px auto;
+    justify-content: space-between;
+    
+}
+
+footer img {
+    width: 300px;
+}

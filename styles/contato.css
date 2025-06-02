@@ -1,0 +1,114 @@
+.container {
+    max-width: 1300px;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 20px 60px;
+    width: 100%;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.nav-link {
+    color: black !important;
+    margin: 0 15px;
+}
+
+.btn-agendar {
+    padding: 10px 30px;
+    border: 1px solid #007BFF; /* azul */
+    background-color: transparent;
+    color: #007BFF;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.btn-agendar:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.form-container {
+  max-width: 600px !important;
+  padding: 20px;
+}
+
+.fale-conosco {
+  max-width: 700px !important;
+  margin-top: 100px;
+  padding: 20px;
+  color: #000;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #000;
+}
+
+.obrigatorio {
+  font-size: 12px;
+  color: #666;
+}
+
+input,
+textarea {
+  margin-top: 5px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 14px;
+  resize: none;
+}
+
+textarea {
+  border-radius: 25px;
+  height: 120px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 14px 0;
+  border-radius: 30px !important;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 50px !important;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    margin: 100px auto;
+    justify-content: space-between;
+    
+}
+
+footer img {
+    width: 300px;
+}

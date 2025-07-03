@@ -1,0 +1,62 @@
+.navbar {
+    background-color: transparent;
+    padding: 20px 60px;
+    width: 100%;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.nav-link {
+    color: black !important;
+    margin: 0 15px;
+}
+
+.btn-agendar {
+    padding: 10px 30px;
+    border: 1px solid #007BFF; /* azul */
+    background-color: transparent;
+    color: #007BFF;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.btn-agendar:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.principal {
+    display: flex;
+    gap: 200px;
+    margin-top: 100px;
+}
+
+.principal h1 {
+    color: #007BFF;
+}
+
+.principal img {
+    width: 700px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    margin: 50px auto;
+    justify-content: space-between;
+    
+}
+
+footer img {
+    width: 300px;
+}

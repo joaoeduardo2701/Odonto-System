@@ -1,0 +1,108 @@
+.navbar {
+    background-color: transparent;
+    padding: 20px 60px;
+    width: 100%;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.nav-link {
+    color: black !important;
+    margin: 0 15px;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.nossos-servicos {
+    margin-top: 150px;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+}
+
+.texto h1 {
+    color: #1470AF;
+    width: 700px;
+}
+
+.texto p {
+    width: 550px;
+}
+
+.imagens {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.imagens img {
+    width: 400px;
+}
+
+.beneficios {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.beneficios h1 {
+    color: #1470AF;
+    font-size: 50px;
+}
+
+.beneficios-grupo {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 80px
+}
+
+.beneficio-item h2 {
+    margin-left: -50px;
+    color: #1470AF;
+}
+
+.beneficio-item p {
+    margin-top: 20px;
+    margin-left: -50px;
+}
+
+.botao-agende {
+    padding: 10px 30px;
+    border: 1px solid #007BFF; /* azul */
+    background-color: transparent;
+    color: #007BFF;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.botao-agende:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 1100px;
+    margin: 50px auto;
+    justify-content: space-between;
+    
+}
+
+footer img {
+    width: 300px;
+}
